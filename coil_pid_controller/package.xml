@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>coil_pid_controller</name>
+  <version>0.0.0</version>
+  <description>The coil_pid_controller package</description>
+
+  <maintainer email="aytackahveci93@gmail.com">Aytac Kahveci</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>control_toolbox</build_depend>
+  <build_depend>controller_interface</build_depend>
+  <build_depend>hardware_interface</build_depend>
+  <build_depend>realtime_tools</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>control_toolbox</run_depend>
+  <run_depend>controller_interface</run_depend>
+  <run_depend>hardware_interface</run_depend>
+  <run_depend>realtime_tools</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <export>
+    <controller_interface plugin="${prefix}/coil_pid_controller_plugins.xml"/>
+  </export>
+</package>

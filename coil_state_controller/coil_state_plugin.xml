@@ -1,0 +1,7 @@
+<library path="lib/libcoil_state_controller">
+    <class name="coil_state_controller/CoilStateController" type="coil_state_controller::CoilStateController" base_class_type="controller_interface::ControllerBase">
+        <description>
+            The coil state controller is publishes the current values of the coils as a coil_controller/CoilStates message. The coil state controller expects a CurrentSensorInterface type of a hardware interface.
+        </description>
+    </class>
+</library>

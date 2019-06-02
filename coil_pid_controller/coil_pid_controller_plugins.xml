@@ -1,0 +1,7 @@
+<library path="lib/libcoil_pid_controller">
+    <class name="coil_pid_controller/CoilPidController" type="coil_pid_controller::CoilPidController" base_class_type="controller_interface::ControllerBase">
+        <description>
+            The CoilPidController tracks the current values of coils by using pid algorithm.
+        </description>
+    </class>
+</library>

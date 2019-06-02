@@ -1,0 +1,7 @@
+<library path="/home/aytac/ros_control_ws/devel/lib/libposeff_controllers">
+    <class name="poseff_controllers/JointGroupPosEffController" type="poseff_controllers::JointGroupPosEffController" base_class_type="controller_interface::ControllerBase">
+        <description>
+            The JointGroupPosEffController tracks the position and current(effort) commands. It expects the PosEffJointInterface type of hardware_interface.
+        </description>
+    </class>
+</library>

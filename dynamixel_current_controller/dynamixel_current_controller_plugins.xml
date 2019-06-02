@@ -1,0 +1,7 @@
+<library path="lib/libdynamixel_current_controller">
+    <class name="dynamixel_current_controller/DynamixelCurrentController" type="dynamixel_current_controller::DynamixelCurrentController" base_class_type="controller_interface::ControllerBase">
+        <description>
+            The  DynamixelCurrentController tracks position of motors by adjusting its current reference value.
+        </description>
+    </class>
+</library>

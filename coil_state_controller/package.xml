@@ -1,0 +1,32 @@
+<package format="1">
+  <name>coil_state_controller</name>
+  <version>0.13.0</version>
+  <description>Controller to publish current state</description>
+  <maintainer email="aytackahveci93@gmail.com">Aytac Kahveci</maintainer>
+
+  <license>BSD</license>
+
+
+  <author>Aytac Kahveci</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>controller_interface</build_depend>
+  <build_depend>hardware_interface</build_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>realtime_tools</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>coil_states_msgs</build_depend>
+
+  <run_depend>hardware_interface</run_depend>
+  <run_depend>pluginlib</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>realtime_tools</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>controller_interface</run_depend>
+  <run_depend>coil_states_msgs</run_depend>
+  <export>
+    <controller_interface plugin="${prefix}/coil_state_plugin.xml"/>
+  </export>
+</package>
